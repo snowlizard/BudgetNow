@@ -1,4 +1,4 @@
-import { Table, StringColumn, DecimalColumn, ChoiceColumn, ReferenceColumn } from '@servicenow/sdk/core'
+import { ChoiceColumn, DecimalColumn, ReferenceColumn, StringColumn, Table } from '@servicenow/sdk/core'
 import '@servicenow/sdk/global'
 //import { showStateUpdate } from '../server/script.js'
 
@@ -18,6 +18,10 @@ export const x_842748_budgetnow_account = Table({
         balance: DecimalColumn({
             active: true,
             label: 'Balance',
+            attributes: {
+                scale: 2,
+            },
+            default: '0',
         }),
 
         type: ChoiceColumn({
@@ -29,24 +33,33 @@ export const x_842748_budgetnow_account = Table({
                     label: 'Checking',
                     inactive: false,
                     sequence: 100,
+                    inactive_on_update: false,
                 },
                 savings: {
                     label: 'Savings',
                     inactive: false,
                     sequence: 200,
+                    inactive_on_update: false,
                 },
                 credit: {
                     label: 'Credit',
                     inactive: false,
                     sequence: 300,
-                }
-            }
+                    inactive_on_update: false,
+                },
+            },
         }),
 
         account_owner: ReferenceColumn({
             label: 'Owner',
             mandatory: true,
             referenceTable: 'sys_user',
-        })
-    }
-});
+            attributes: {
+                encode_utf8: false,
+            },
+            reference_qual: 'active=true^EQ',
+        }),
+    },
+    display: 'name',
+    index: [{ name: 'index', element: 'account_owner', unique: false }],
+})
