@@ -40,7 +40,7 @@ export const x_842748_budgetnow_transaction = Table({
 
         amount: DecimalColumn({
             active: true,
-            label: 'Balance',
+            label: 'Amount',
             attributes: {
                 scale: 2,
             },
