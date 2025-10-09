@@ -6,7 +6,7 @@ export default Record({
     data: {
         active: true,
         application: 'e049b79ac192493ea27c387a32b9900b',
-        filter: 'type=transfer^source.account_ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ',
+        filter: 'type=transfer^source.account_ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^dateONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()^EQ',
         link_type: 'LIST',
         mobile_title: 'Transfers',
         mobile_view_name: 'Mobile',
