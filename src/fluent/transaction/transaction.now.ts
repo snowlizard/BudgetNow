@@ -74,7 +74,7 @@ export const x_842748_budgetnow_transaction = Table({
                     inactive: false,
                     sequence: 400,
                     inactive_on_update: false,
-                }
+                },
             },
         }),
 
@@ -84,19 +84,27 @@ export const x_842748_budgetnow_transaction = Table({
             choices: {
                 rent: {
                     label: 'Rent',
-                    sequence: 100,
+                    sequence: 0,
                     dependent_value: 'bill',
+                    inactive_on_update: false,
                 },
                 phone: {
                     label: 'Phone',
-                    sequence: 200,
+                    sequence: 1,
                     dependent_value: 'bill',
+                    inactive_on_update: false,
                 },
                 utilities: {
                     label: 'Utilities',
-                    sequence: 300,
-                    dependent_value: 'bill'
-                }
+                    sequence: 2,
+                    dependent_value: 'bill',
+                    inactive_on_update: false,
+                },
+            },
+            dependent_on_field: 'category',
+            dynamic_value_definitions: {
+                type: 'dependent_field',
+                column_name: 'category',
             },
         }),
 
@@ -107,17 +115,24 @@ export const x_842748_budgetnow_transaction = Table({
                 withdrawal: {
                     label: 'Withdrawal',
                     sequence: 100,
+                    inactive_on_update: false,
                 },
                 transfer: {
                     label: 'Transfer',
                     sequence: 200,
+                    inactive_on_update: false,
                 },
                 revenue: {
                     label: 'Revenue',
                     sequence: 300,
-                }
-            }
-        })
+                    inactive_on_update: false,
+                },
+            },
+        }),
     },
     display: 'description',
+    index: [
+        { name: 'index', element: 'destination', unique: false },
+        { name: 'index2', element: 'source', unique: false },
+    ],
 })
