@@ -56,6 +56,8 @@ export const x_842748_budgetnow_account = Table({
                 encode_utf8: false,
             },
             reference_qual: 'active=true^EQ',
+            dynamic_default_value: 'bdcb83a85f220100a9ad2572f2b4773d',
+            default: 'javascript:gs.getUserID();',
         }),
     },
     display: 'name',
