@@ -12,6 +12,10 @@ declare global {
                         "src_server_script_ts": {
                             "table": "sys_module",
                             "id": "7a47abdad97645e19ad5826646cb0e46"
+                        },
+                        "budgetnow_app": {
+                            "table": "sys_app_application",
+                            "id": "e049b79ac192493ea27c387a32b9900b"
                         }
                     };
             }
