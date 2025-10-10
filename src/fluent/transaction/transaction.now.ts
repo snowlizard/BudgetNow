@@ -40,11 +40,12 @@ export const x_842748_budgetnow_transaction = Table({
 
         amount: DecimalColumn({
             active: true,
-            label: [{ label: 'Amount', language: 'en', plural: 'Amount' }],
+            label: 'Amount',
             attributes: {
                 scale: 2,
             },
             default: '0',
+            mandatory: true,
         }),
 
         category: ChoiceColumn({

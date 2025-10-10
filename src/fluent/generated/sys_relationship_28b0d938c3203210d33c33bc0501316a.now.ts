@@ -10,7 +10,7 @@ export default Record({
         name: 'Revenue',
         query_with: `(function refineQuery(current, parent) {
 
-    current.addEncodedQuery("type=revenue^source.account_ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^dateONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()^source=" + parent.sys_id);
+    current.addEncodedQuery("type=revenue^destination.account_ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^dateONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()^destination=" + parent.sys_id);
 
 })(current, parent);`,
         simple_reference: false,
