@@ -10,7 +10,7 @@ export default Record({
         name: 'Withdrawals',
         query_with: `(function refineQuery(current, parent) {
 
-	current.addEncodedQuery("type=withdrawal^source.account_ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^dateONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()^source=" + parent.sys_id);
+	current.addEncodedQuery("type=withdrawal^source.account_ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^dateONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()^source=" + parent.sys_id);
 
 })(current, parent);`,
         simple_reference: false,

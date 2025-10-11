@@ -10,7 +10,7 @@ export default Record({
         name: 'Transfers',
         query_with: `(function refineQuery(current, parent) {
 
-    current.addEncodedQuery("type=transfer^source.account_ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORdestination.account_ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^dateONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()^destination=" + parent.sys_id + "^ORsource=" + parent.sys_id);
+    current.addEncodedQuery("type=transfer^source.account_ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORdestination.account_ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^dateONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()^destination=" + parent.sys_id + "^ORsource=" + parent.sys_id);
 
 })(current, parent);`,
         simple_reference: false,
