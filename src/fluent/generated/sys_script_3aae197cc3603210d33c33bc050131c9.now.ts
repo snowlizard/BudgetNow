@@ -2,7 +2,7 @@ import { BusinessRule } from '@servicenow/sdk/core'
 
 export default BusinessRule({
     $id: '3aae197cc3603210d33c33bc050131c9',
-    action: ["update","insert"],
+    action: ['update', 'insert'],
     filter_condition: `type=withdrawal^EQ`,
     table: 'x_842748_budgetnow_transaction',
     name: 'Handle withdrawal amount',
@@ -31,5 +31,5 @@ export default BusinessRule({
         sourceAccount.update();
     }
 
-})(current, previous);`
+})(current, previous);`,
 })

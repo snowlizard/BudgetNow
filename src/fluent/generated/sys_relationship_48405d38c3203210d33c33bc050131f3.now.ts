@@ -2,7 +2,7 @@ import { Record } from '@servicenow/sdk/core'
 
 export default Record({
     $id: '48405d38c3203210d33c33bc050131f3',
-    table: "sys_relationship",
+    table: 'sys_relationship',
     data: {
         advanced: false,
         basic_apply_to: 'x_842748_budgetnow_account',

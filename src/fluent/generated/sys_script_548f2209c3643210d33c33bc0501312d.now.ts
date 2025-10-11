@@ -1,9 +1,9 @@
-import { BusinessRule } from "@servicenow/sdk/core";
+import { BusinessRule } from '@servicenow/sdk/core'
 
 export default BusinessRule({
-    $id: "548f2209c3643210d33c33bc0501312d",
-    action: ["update","insert"],
-    filter_condition:`type=transfer^EQ`,
+    $id: '548f2209c3643210d33c33bc0501312d',
+    action: ['update', 'insert'],
+    filter_condition: `type=transfer^EQ`,
     script: `(function executeRule(current, previous /*null when async*/ ) {
 
     let sourceAccount = new GlideRecord('x_842748_budgetnow_account');
@@ -41,11 +41,11 @@ export default BusinessRule({
     }
 
 })(current, previous);`,
-    table: "x_842748_budgetnow_transaction",
-    name: "Handle transfer",
+    table: 'x_842748_budgetnow_transaction',
+    name: 'Handle transfer',
     order: 100,
-    when: "before",
+    when: 'before',
     active: true,
     add_message: false,
-    abort_action: false
-});
+    abort_action: false,
+})

@@ -129,6 +129,7 @@ export const x_842748_budgetnow_transaction = Table({
                     inactive_on_update: false,
                 },
             },
+            read_only: true,
         }),
     },
     display: 'description',
