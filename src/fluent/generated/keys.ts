@@ -50,6 +50,134 @@ declare global {
                                 "sys_security_acl": "ef171be583e47210066a5d10feaad393",
                                 "sys_user_role": "282bf1fac6112285017366cb5f867469"
                             }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "30a49344cc944482984c9c3476661443",
+                            "key": {
+                                "list": "0e611938c3203210d33c33bc050131cf",
+                                "element": "date"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "ce7cc24ffbaf4f229b03865a7bcb0d31",
+                            "key": {
+                                "list": "0e611938c3203210d33c33bc050131cf",
+                                "element": "description"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "ab5a9738311c4f32ba0e89370f8169a1",
+                            "key": {
+                                "list": "0e611938c3203210d33c33bc050131cf",
+                                "element": "category"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "952a746c9b3645d6b26dd46981d4f79f",
+                            "key": {
+                                "list": "0e611938c3203210d33c33bc050131cf",
+                                "element": "amount"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "cfccba82e4cc482992583a31b70e7407",
+                            "key": {
+                                "list": "a5e1d5f8c3203210d33c33bc050131c4",
+                                "element": "date"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "03e7d8296cd24a0eb9faf4cc6493722a",
+                            "key": {
+                                "list": "a5e1d5f8c3203210d33c33bc050131c4",
+                                "element": "description"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "0227fa400f224f0daf8d231422bcac43",
+                            "key": {
+                                "list": "a5e1d5f8c3203210d33c33bc050131c4",
+                                "element": "amount"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "ed9758dc8b044e5ba266e6ee61be77da",
+                            "key": {
+                                "list": "cfa1ddb8c3203210d33c33bc05013150",
+                                "element": "date"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "9334b352b33f4c22be84551205923a6d",
+                            "key": {
+                                "list": "cfa1ddb8c3203210d33c33bc05013150",
+                                "element": "description"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "2490a0a4cb8a40bea1147c6144325270",
+                            "key": {
+                                "list": "cfa1ddb8c3203210d33c33bc05013150",
+                                "element": "amount"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "019936227922439585101b33d729ff40",
+                            "key": {
+                                "list": "1339769dc3a87210d33c33bc05013101",
+                                "element": "date"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "bd6a5bebaa4c49209b1525347a5565ac",
+                            "key": {
+                                "list": "1339769dc3a87210d33c33bc05013101",
+                                "element": "category"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "f2c585900ff04b23bf59d623036fd5bc",
+                            "key": {
+                                "list": "1339769dc3a87210d33c33bc05013101",
+                                "element": "subcategory"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "d9c8628a3bb44d4aac4e0f3b07da4c4d",
+                            "key": {
+                                "list": "1339769dc3a87210d33c33bc05013101",
+                                "element": "description"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "495feddac68b496a86c7f7678ca4853f",
+                            "key": {
+                                "list": "1339769dc3a87210d33c33bc05013101",
+                                "element": "amount"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "c506115fea2c438097371708038c1b65",
+                            "key": {
+                                "list": "1339769dc3a87210d33c33bc05013101",
+                                "element": "source"
+                            }
                         }
                     ];
                 deleted: {
