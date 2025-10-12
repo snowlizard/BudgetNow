@@ -18,6 +18,40 @@ declare global {
                             "id": "e049b79ac192493ea27c387a32b9900b"
                         }
                     };
+                composite: [
+                        {
+                            "table": "sys_security_acl_role",
+                            "id": "3b171be583e47210066a5d10feaad3b5",
+                            "key": {
+                                "sys_security_acl": "37171be583e47210066a5d10feaad3b2",
+                                "sys_user_role": "282bf1fac6112285017366cb5f867469"
+                            }
+                        },
+                        {
+                            "table": "sys_security_acl_role",
+                            "id": "7f171be583e47210066a5d10feaad3ae",
+                            "key": {
+                                "sys_security_acl": "b3171be583e47210066a5d10feaad39f",
+                                "sys_user_role": "282bf1fac6112285017366cb5f867469"
+                            }
+                        },
+                        {
+                            "table": "sys_security_acl_role",
+                            "id": "f3171be583e47210066a5d10feaad3bc",
+                            "key": {
+                                "sys_security_acl": "ff171be583e47210066a5d10feaad3b8",
+                                "sys_user_role": "282bf1fac6112285017366cb5f867469"
+                            }
+                        },
+                        {
+                            "table": "sys_security_acl_role",
+                            "id": "ff171be583e47210066a5d10feaad399",
+                            "key": {
+                                "sys_security_acl": "ef171be583e47210066a5d10feaad393",
+                                "sys_user_role": "282bf1fac6112285017366cb5f867469"
+                            }
+                        }
+                    ];
                 deleted: {
                         "sys_ui_list_element": [
                             "3c798f2a52cf4d8fb5c3c4d5eb649f42",
