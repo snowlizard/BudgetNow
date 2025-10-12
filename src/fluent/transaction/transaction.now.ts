@@ -196,56 +196,56 @@ export const x_842748_budgetnow_transaction = Table({
                     inactive: false,
                     sequence: 0,
                     inactive_on_update: false,
-                    dependent_value: 'toiletries'
+                    dependent_value: 'toiletries',
                 },
                 hygiene: {
                     label: 'Hygiene',
                     inactive: false,
                     sequence: 1,
                     inactive_on_update: false,
-                    dependent_value: 'toiletries'
+                    dependent_value: 'toiletries',
                 },
                 yumi: {
                     label: 'Yumi',
                     inactive: false,
                     sequence: 8,
                     inactive_on_update: false,
-                    dependent_value: 'bill'
+                    dependent_value: 'bill',
                 },
                 emergency_fund: {
                     label: 'Emergency fund',
                     inactive: false,
                     sequence: 0,
                     inactive_on_update: false,
-                    dependent_value: 'saving'
+                    dependent_value: 'saving',
                 },
                 other: {
                     label: 'Other',
                     inactive: false,
                     sequence: 1,
                     inactive_on_update: false,
-                    dependent_value: 'saving'
+                    dependent_value: 'saving',
                 },
                 ira: {
                     label: 'IRA',
                     inactive: false,
                     sequence: 0,
                     inactive_on_update: false,
-                    dependent_value: 'investing'
+                    dependent_value: 'investing',
                 },
                 four01k: {
                     label: '401k',
                     inactive: false,
                     sequence: 1,
                     inactive_on_update: false,
-                    dependent_value: 'investing'
+                    dependent_value: 'investing',
                 },
                 brokerage: {
                     label: 'Brokerage',
                     inactive: false,
                     sequence: 2,
                     inactive_on_update: false,
-                    dependent_value: 'investing'
+                    dependent_value: 'investing',
                 },
             },
             dependent_on_field: 'category',
