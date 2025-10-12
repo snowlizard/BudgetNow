@@ -247,6 +247,12 @@ export const x_842748_budgetnow_transaction = Table({
                     inactive_on_update: false,
                     dependent_value: 'investing',
                 },
+                entertainment: {
+                    label: 'Entertainment',
+                    sequence: 4,
+                    dependent_value: 'bullshit',
+                    inactive_on_update: false,
+                },
             },
             dependent_on_field: 'category',
             dynamic_value_definitions: {
@@ -280,7 +286,8 @@ export const x_842748_budgetnow_transaction = Table({
     },
     display: 'description',
     index: [
-        { name: 'index', element: 'destination', unique: false },
-        { name: 'index2', element: 'source', unique: false },
+        { name: 'index', element: 'description', unique: false },
+        { name: 'index2', element: 'destination', unique: false },
+        { name: 'index3', element: 'source', unique: false },
     ],
 })
