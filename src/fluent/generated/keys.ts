@@ -32,6 +32,10 @@ declare global {
                         "sys_app_module_all_transactions": {
                             "table": "sys_app_module",
                             "id": "5e7e065b967545579c2f31905b04ca24"
+                        },
+                        "budget_table_list": {
+                            "table": "sys_ui_list",
+                            "id": "f3e238ea3e3f40da830442a22f3983af"
                         }
                     };
                 composite: [
@@ -281,6 +285,30 @@ declare global {
                             "key": {
                                 "list": "a6ac564df0c84175a3ed31b3b62b2993",
                                 "element": "u_amount"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "f8682409b40b412aaf561c2d1ad070e5",
+                            "key": {
+                                "list": "f3e238ea3e3f40da830442a22f3983af",
+                                "element": "name"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "f65bc069a65d47e38734935142219f72",
+                            "key": {
+                                "list": "f3e238ea3e3f40da830442a22f3983af",
+                                "element": "spent"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "b6a2e184c4044762bcf8e87f26a974e6",
+                            "key": {
+                                "list": "f3e238ea3e3f40da830442a22f3983af",
+                                "element": "target"
                             }
                         }
                     ];

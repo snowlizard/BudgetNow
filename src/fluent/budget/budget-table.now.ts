@@ -1,4 +1,4 @@
-import { Table, StringColumn, ListColumn, DecimalColumn, default_view, List } from '@servicenow/sdk/core'
+import { DecimalColumn, default_view, List, ListColumn, StringColumn, Table } from '@servicenow/sdk/core'
 import '@servicenow/sdk/global'
 
 export const x_842748_budgetnow_budget = Table({
