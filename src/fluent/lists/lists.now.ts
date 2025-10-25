@@ -1,5 +1,5 @@
-import '@servicenow/sdk/global'
 import { List, default_view } from '@servicenow/sdk/core'
+import '@servicenow/sdk/global'
 
 // Create list view for Budget Choice table (if not already generated)
 List({
