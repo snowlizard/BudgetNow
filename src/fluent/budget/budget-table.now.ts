@@ -17,6 +17,11 @@ export const x_842748_budgetnow_budget = Table({
             active: true,
             label: 'Categories',
             referenceTable: 'x_842748_budgetnow_budget_choice',
+            attributes: {
+                no_sort: true,
+                slushbucket_ref_no_expand: true,
+            },
+            reference_qual: 'depends_onISNOTEMPTY^EQ',
         }),
 
         spent: DecimalColumn({

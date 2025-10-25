@@ -70,250 +70,40 @@ declare global {
                                 "sys_security_acl": "ef171be583e47210066a5d10feaad393",
                                 "sys_user_role": "282bf1fac6112285017366cb5f867469"
                             }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "30a49344cc944482984c9c3476661443",
-                            "key": {
-                                "list": "0e611938c3203210d33c33bc050131cf",
-                                "element": "date"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "ce7cc24ffbaf4f229b03865a7bcb0d31",
-                            "key": {
-                                "list": "0e611938c3203210d33c33bc050131cf",
-                                "element": "description"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "ab5a9738311c4f32ba0e89370f8169a1",
-                            "key": {
-                                "list": "0e611938c3203210d33c33bc050131cf",
-                                "element": "category"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "952a746c9b3645d6b26dd46981d4f79f",
-                            "key": {
-                                "list": "0e611938c3203210d33c33bc050131cf",
-                                "element": "amount"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "cfccba82e4cc482992583a31b70e7407",
-                            "key": {
-                                "list": "a5e1d5f8c3203210d33c33bc050131c4",
-                                "element": "date"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "03e7d8296cd24a0eb9faf4cc6493722a",
-                            "key": {
-                                "list": "a5e1d5f8c3203210d33c33bc050131c4",
-                                "element": "description"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "0227fa400f224f0daf8d231422bcac43",
-                            "key": {
-                                "list": "a5e1d5f8c3203210d33c33bc050131c4",
-                                "element": "amount"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "ed9758dc8b044e5ba266e6ee61be77da",
-                            "key": {
-                                "list": "cfa1ddb8c3203210d33c33bc05013150",
-                                "element": "date"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "9334b352b33f4c22be84551205923a6d",
-                            "key": {
-                                "list": "cfa1ddb8c3203210d33c33bc05013150",
-                                "element": "description"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "2490a0a4cb8a40bea1147c6144325270",
-                            "key": {
-                                "list": "cfa1ddb8c3203210d33c33bc05013150",
-                                "element": "amount"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "019936227922439585101b33d729ff40",
-                            "key": {
-                                "list": "1339769dc3a87210d33c33bc05013101",
-                                "element": "date"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "bd6a5bebaa4c49209b1525347a5565ac",
-                            "key": {
-                                "list": "1339769dc3a87210d33c33bc05013101",
-                                "element": "category"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "f2c585900ff04b23bf59d623036fd5bc",
-                            "key": {
-                                "list": "1339769dc3a87210d33c33bc05013101",
-                                "element": "subcategory"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "d9c8628a3bb44d4aac4e0f3b07da4c4d",
-                            "key": {
-                                "list": "1339769dc3a87210d33c33bc05013101",
-                                "element": "description"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "495feddac68b496a86c7f7678ca4853f",
-                            "key": {
-                                "list": "1339769dc3a87210d33c33bc05013101",
-                                "element": "amount"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "c506115fea2c438097371708038c1b65",
-                            "key": {
-                                "list": "1339769dc3a87210d33c33bc05013101",
-                                "element": "source"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "b08cd5a5857e4a50bc5f863d2754650b",
-                            "key": {
-                                "list": "ad44c6087bc0485698d9608950fd19f3",
-                                "element": "name"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "fd20b5d323084aac9e226eec6a36927e",
-                            "key": {
-                                "list": "ad44c6087bc0485698d9608950fd19f3",
-                                "element": "depends_on"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "ee93ccb8ec5c4176afc0da1cc14a74ae",
-                            "key": {
-                                "list": "62e982dabf164f1786332475188ea068",
-                                "element": "u_date"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "17e36c0c17b64654b5e261df75db6c65",
-                            "key": {
-                                "list": "62e982dabf164f1786332475188ea068",
-                                "element": "u_description"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "642e92f0b2ce4c9eb5b164eab334fa1d",
-                            "key": {
-                                "list": "62e982dabf164f1786332475188ea068",
-                                "element": "u_withdrawal"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "15df0b5e5371458eba7583327630d540",
-                            "key": {
-                                "list": "62e982dabf164f1786332475188ea068",
-                                "element": "u_deposit"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "ee2a88d3286b45b0a022e86019ac04f9",
-                            "key": {
-                                "list": "62e982dabf164f1786332475188ea068",
-                                "element": "u_type"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "70cd35f3f0a849df9c4f682842ac9d51",
-                            "key": {
-                                "list": "62e982dabf164f1786332475188ea068",
-                                "element": "u_status"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "dabc09f291e9431c83f42f75a97bb56b",
-                            "key": {
-                                "list": "a6ac564df0c84175a3ed31b3b62b2993",
-                                "element": "u_date"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "209f53f2448d4902b85d94a4a46f09ac",
-                            "key": {
-                                "list": "a6ac564df0c84175a3ed31b3b62b2993",
-                                "element": "u_description"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "9c30540a160545e1861c688c68fb29d8",
-                            "key": {
-                                "list": "a6ac564df0c84175a3ed31b3b62b2993",
-                                "element": "u_amount"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "f8682409b40b412aaf561c2d1ad070e5",
-                            "key": {
-                                "list": "f3e238ea3e3f40da830442a22f3983af",
-                                "element": "name"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "f65bc069a65d47e38734935142219f72",
-                            "key": {
-                                "list": "f3e238ea3e3f40da830442a22f3983af",
-                                "element": "spent"
-                            }
-                        },
-                        {
-                            "table": "sys_ui_list_element",
-                            "id": "b6a2e184c4044762bcf8e87f26a974e6",
-                            "key": {
-                                "list": "f3e238ea3e3f40da830442a22f3983af",
-                                "element": "target"
-                            }
                         }
                     ];
                 deleted: {
                         "sys_ui_list_element": [
+                            "30a49344cc944482984c9c3476661443",
+                            "ce7cc24ffbaf4f229b03865a7bcb0d31",
+                            "ab5a9738311c4f32ba0e89370f8169a1",
+                            "952a746c9b3645d6b26dd46981d4f79f",
+                            "cfccba82e4cc482992583a31b70e7407",
+                            "03e7d8296cd24a0eb9faf4cc6493722a",
+                            "0227fa400f224f0daf8d231422bcac43",
+                            "ed9758dc8b044e5ba266e6ee61be77da",
+                            "9334b352b33f4c22be84551205923a6d",
+                            "2490a0a4cb8a40bea1147c6144325270",
+                            "019936227922439585101b33d729ff40",
+                            "bd6a5bebaa4c49209b1525347a5565ac",
+                            "f2c585900ff04b23bf59d623036fd5bc",
+                            "d9c8628a3bb44d4aac4e0f3b07da4c4d",
+                            "495feddac68b496a86c7f7678ca4853f",
+                            "c506115fea2c438097371708038c1b65",
+                            "b08cd5a5857e4a50bc5f863d2754650b",
+                            "fd20b5d323084aac9e226eec6a36927e",
+                            "ee93ccb8ec5c4176afc0da1cc14a74ae",
+                            "17e36c0c17b64654b5e261df75db6c65",
+                            "642e92f0b2ce4c9eb5b164eab334fa1d",
+                            "15df0b5e5371458eba7583327630d540",
+                            "ee2a88d3286b45b0a022e86019ac04f9",
+                            "70cd35f3f0a849df9c4f682842ac9d51",
+                            "dabc09f291e9431c83f42f75a97bb56b",
+                            "209f53f2448d4902b85d94a4a46f09ac",
+                            "9c30540a160545e1861c688c68fb29d8",
+                            "f8682409b40b412aaf561c2d1ad070e5",
+                            "f65bc069a65d47e38734935142219f72",
+                            "b6a2e184c4044762bcf8e87f26a974e6",
                             "3c798f2a52cf4d8fb5c3c4d5eb649f42",
                             "b14f4ccdf2974774a548881d9405f480",
                             "be3357834a024afdaf4204064f612715",
