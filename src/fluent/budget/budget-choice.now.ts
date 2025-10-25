@@ -1,4 +1,5 @@
 import { ReferenceColumn, StringColumn, Table } from '@servicenow/sdk/core'
+import '@servicenow/sdk/global'
 
 export const x_842748_budgetnow_budget_choice = Table({
     name: 'x_842748_budgetnow_budget_choice',
@@ -23,5 +24,6 @@ export const x_842748_budgetnow_budget_choice = Table({
             referenceTable: 'x_842748_budgetnow_budget_choice',
         }),
     },
+    display: 'name',
     index: [{ name: 'index', element: 'depends_on', unique: false }],
 })
