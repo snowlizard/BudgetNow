@@ -16,6 +16,18 @@ declare global {
                         "budgetnow_app": {
                             "table": "sys_app_application",
                             "id": "e049b79ac192493ea27c387a32b9900b"
+                        },
+                        "budget_choice_list": {
+                            "table": "sys_ui_list",
+                            "id": "ad44c6087bc0485698d9608950fd19f3"
+                        },
+                        "schwab_data_list": {
+                            "table": "sys_ui_list",
+                            "id": "62e982dabf164f1786332475188ea068"
+                        },
+                        "amex_data_list": {
+                            "table": "sys_ui_list",
+                            "id": "a6ac564df0c84175a3ed31b3b62b2993"
                         }
                     };
                 composite: [
@@ -177,6 +189,94 @@ declare global {
                             "key": {
                                 "list": "1339769dc3a87210d33c33bc05013101",
                                 "element": "source"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "b08cd5a5857e4a50bc5f863d2754650b",
+                            "key": {
+                                "list": "ad44c6087bc0485698d9608950fd19f3",
+                                "element": "name"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "fd20b5d323084aac9e226eec6a36927e",
+                            "key": {
+                                "list": "ad44c6087bc0485698d9608950fd19f3",
+                                "element": "depends_on"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "ee93ccb8ec5c4176afc0da1cc14a74ae",
+                            "key": {
+                                "list": "62e982dabf164f1786332475188ea068",
+                                "element": "u_date"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "17e36c0c17b64654b5e261df75db6c65",
+                            "key": {
+                                "list": "62e982dabf164f1786332475188ea068",
+                                "element": "u_description"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "642e92f0b2ce4c9eb5b164eab334fa1d",
+                            "key": {
+                                "list": "62e982dabf164f1786332475188ea068",
+                                "element": "u_withdrawal"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "15df0b5e5371458eba7583327630d540",
+                            "key": {
+                                "list": "62e982dabf164f1786332475188ea068",
+                                "element": "u_deposit"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "ee2a88d3286b45b0a022e86019ac04f9",
+                            "key": {
+                                "list": "62e982dabf164f1786332475188ea068",
+                                "element": "u_type"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "70cd35f3f0a849df9c4f682842ac9d51",
+                            "key": {
+                                "list": "62e982dabf164f1786332475188ea068",
+                                "element": "u_status"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "dabc09f291e9431c83f42f75a97bb56b",
+                            "key": {
+                                "list": "a6ac564df0c84175a3ed31b3b62b2993",
+                                "element": "u_date"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "209f53f2448d4902b85d94a4a46f09ac",
+                            "key": {
+                                "list": "a6ac564df0c84175a3ed31b3b62b2993",
+                                "element": "u_description"
+                            }
+                        },
+                        {
+                            "table": "sys_ui_list_element",
+                            "id": "9c30540a160545e1861c688c68fb29d8",
+                            "key": {
+                                "list": "a6ac564df0c84175a3ed31b3b62b2993",
+                                "element": "u_amount"
                             }
                         }
                     ];
