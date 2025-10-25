@@ -28,6 +28,10 @@ declare global {
                         "amex_data_list": {
                             "table": "sys_ui_list",
                             "id": "a6ac564df0c84175a3ed31b3b62b2993"
+                        },
+                        "sys_app_module_all_transactions": {
+                            "table": "sys_app_module",
+                            "id": "5e7e065b967545579c2f31905b04ca24"
                         }
                     };
                 composite: [
